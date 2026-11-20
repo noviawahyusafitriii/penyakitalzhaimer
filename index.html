@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edukasi Kesehatan: Penyakit Alzheimer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- g. KONSULTASI -->
+    <section id="konsultasi" class="page-section">
+      <div class="section-header">
+        <h2>Formulir Konsultasi & Permintaan Informasi</h2>
+        <p>Silakan isi formulir di bawah ini untuk berkonsultasi mengenai edukasi Alzheimer.</p>
+      </div>
+      <div class="content-card form-wrapper">
+        <form id="formKonsultasi">
+          <div class="form-group">
+            <label for="nama">Nama Lengkap <span class="required">*</span></label>
+            <input type="text" id="nama" placeholder="Masukkan nama lengkap Anda">
+            <small class="error-msg" id="errorNama"></small>
+          </div>
+          <div class="form-group">
+            <label for="email">Alamat Email <span class="required">*</span></label>
+            <input type="text" id="email" placeholder="contoh@email.com">
+            <small class="error-msg" id="errorEmail"></small>
+          </div>
+          <div class="form-group">
+            <label for="telepon">Nomor Telepon / WhatsApp <span class="required">*</span></label>
+            <input type="text" id="telepon" placeholder="Contoh: 081234567890">
+            <small class="error-msg" id="errorTelepon"></small>
+          </div>
+          <div class="form-group">
+            <label for="pesan">Pesan atau Pertanyaan Konsultasi <span class="required">*</span></label>
+            <textarea id="pesan" rows="4" placeholder="Tuliskan pertanyaan Anda..."></textarea>
+            <small class="error-msg" id="errorPesan"></small>
+          </div>
+          <button type="submit" class="btn-primary btn-full">Kirim Permintaan Konsultasi</button>
+        </form>
+        <div id="hasilKonsultasi" class="success-box hidden"></div>
+      </div>
+    </section>
+
+    <!-- h. KONTAK -->
+    <section id="kontak" class="page-section">
+      <div class="section-header">
+        <h2>Kontak Pengelola Website</h2>
+        <p>Hubungi tim kami kesehatan dan informasi rekam medis kami.</p>
+      </div>
+      <div class="content-card">
+        <div class="grid-2">
+          <div>
+            <h3>Informasi Pengelola</h3>
+            <ul class="contact-list">
+              <li><strong>Nama Mahasiswa:</strong> Novia (Prodi D3 Rekam Medis & Informasi Kesehatan)</li>
+              <li><strong>Alamat:</strong> Banaran,grogol,surakarta, Jawa Tengah</li>
+              <li><strong>Nomor Telepon:</strong>08967284221</li>
+              <li><strong>Email:</strong>noviawahyusafitri868@gmail.com</li>
+            </ul>
+          </div>
+          <div class="sub-box">
+            <h4>Sumber Referensi Informasi Kesehatan</h4>
+            <ul class="styled-list">
+              <li>Kementerian Kesehatan Republik Indonesia (Kemenkes RI) – P2PTM.</li>
+              <li>World Health Organization (WHO) – Dementia & Alzheimer's Disease.</li>
+              <li>Alzheimer's Association – Alzheimer's Disease Facts and Figures.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; Portal Edukasi Penyakit Alzheimer </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+  <header>
+    <div class="container nav-container">
+      <div class="logo">
+        <div class="logo-badge"></div>
+        <div>
+          <h1>penyakit alzhaimer</h1>
+          <p>Portal Edukasi Penyakit Tidak Menular</p>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home" class="nav-btn">Home</a></li>
+          <li><a href="#profil" class="nav-btn">Profil Penyakit</a></li>
+          <li><a href="#gejala" class="nav-btn">Gejala</a></li>
+          <li><a href="#penyebab" class="nav-btn">Penyebab & Risiko</a></li>
+          <li><a href="#pencegahan" class="nav-btn">Pencegahan</a></li>
+          <li><a href="#penanganan" class="nav-btn">Penanganan</a></li>
+          <li><a href="#konsultasi" class="nav-btn">Konsultasi</a></li>
+          <li><a href="#kontak" class="nav-btn">Kontak</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- a. HOME -->
+    <section id="home" class="page-section">
+      <div class="hero-card">
+        <div class="hero-text">
+          <span class="badge">Penyakit Tidak Menular</span>
+          <h2>Mengenal Penyakit Alzheimer</h2>
+          <p>
+            Penyakit Alzheimer adalah gangguan otak progresif yang menyebabkan penurunan daya ingat, kemampuan berpikir, berkomunikasi, hingga kemandirian dalam beraktivitas sehari-hari. Kondisi ini merupakan penyebab paling umum dari demensia (pikun) dan bukanlah bagian normal dari proses penuaan, meskipun paling sering dialami oleh orang berusia di atas 60–65 tahun.
+          </p>
+          <div class="hero-buttons">
+            <a href="#profil" class="btn-primary">Pelajari Selengkapnya</a>
+            <a href="#konsultasi" class="btn-secondary">Konsultasi Sekarang</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <svg viewBox="0 0 400 260" width="100%" height="250" style="background:#e0f2fe; border-radius:12px;">
+            <circle cx="200" cy="120" r="80" fill="#0f766e" opacity="0.15"/>
+            <path d="M160,120 C160,85 240,85 240,120 C255,120 255,155 230,160 C220,175 180,175 170,160 C145,155 145,120 160,120 Z" fill="#0f766e"/>
+            <path d="M180,115 Q200,95 220,115 M175,135 Q200,150 225,135" stroke="#ffffff" stroke-width="4" fill="none" stroke-linecap="round"/>
+            <text x="200" y="215" text-anchor="middle" fill="#115e59" font-size="16" font-weight="bold" font-family="sans-serif">Ilustrasi Kesehatan Otak & Memori</text>
+            <text x="200" y="235" text-anchor="middle" fill="#0284c7" font-size="12" font-family="sans-serif">Edukasi Penyakit Alzheimer</text>
+          </svg>
+        </div>
+      </div>
+
+      <div class="quick-info-grid">
+        <div class="info-box">
+          <h3>60% - 70%</h3>
+          <p>Kasus demensia di dunia disebabkan oleh penyakit Alzheimer.</p>
+        </div>
+        <div class="info-box">
+          <h3>Usia > 65 Tahun</h3>
+          <p>Kelompok usia dengan risiko tertinggi mengalami gejala Alzheimer.</p>
+        </div>
+        <div class="info-box">
+          <h3>Deteksi Dini</h3>
+          <p>Pemeriksaan awal membantu memperlambat perkembangan gejala.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- b. PROFIL PENYAKIT -->
+    <section id="profil" class="page-section">
+      <div class="section-header">
+        <h2>Profil Penyakit Alzheimer</h2>
+        <p>Pemahaman dasar, karakteristik klinis, dan informasi umum medis.</p>
+      </div>
+      <div class="content-card">
+        <div class="grid-2">
+          <div>
+            <h3>Pengertian Penyakit</h3>
+            <p>
+              <strong>Penyakit Alzheimer</strong> adalah penyakit otak yang menyebabkan penurunan daya ingat, menurunnya kemampuan berpikir dan berbicara, serta perubahan perilaku secara bertahap. Penyakit ini merupakan penyebab paling umum dari sindrom demensia pada lansia.
+            </p>
+            <h3 class="mt-20">Karakteristik Penyakit</h3>
+            <ul class="styled-list">
+              <li><strong>Progresif:</strong> Gejala berkembang perlahan dan memburuk seiring berjalannya waktu.</li>
+              <li><strong>Neurodegeneratif:</strong> Terjadi penumpukan protein abnormal (plak amiloid dan kekusutan tau) yang merusak sel saraf otak.</li>
+			  <li><strong>Gangguan Memori Jangka Pendek (Awal):</strong>  Penderita biasanya tetap mengingat kejadian masa lalu dengan jelas, namun sangat mudah melupakan informasi atau kejadian yang baru saja terjadi.</li>
+			  <li><strong>Perubahan Perilaku dan Psikologis:</strong>Sering disertai disorientasi waktu/tempat, perubahan suasana hati yang drastis, curiga berlebihan, hingga menarik diri dari lingkungan sosial.
+.</li>
+			  
+              <li><strong>Non-Menular:</strong> Tidak ditularkan melalui kontak fisik, udara, maupun cairan tubuh.</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Informasi Umum</h3>
+            <p>
+              Nama penyakit ini diambil dari <em>Dr. Alois Alzheimer</em>, seorang dokter spesialis saraf asal Jerman yang pertama kali mendeskripsikan kondisi ini pada tahun 1906. Meskipun sering dikaitkan dengan penuaan, Alzheimer bukanlah bagian normal dari proses menua.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- c. GEJALA PENYAKIT -->
+    <section id="gejala" class="page-section">
+      <div class="section-header">
+        <h2>Tanda dan Gejala Penyakit Alzheimer</h2>
+        <p>Perbedaan gejala pada tahap awal hingga tahap lanjutan.</p>
+      </div>
+      <div class="grid-2">
+        <div class="content-card border-warning">
+          <span class="tag tag-warning">Tahap 1: Gejala Awal</span>
+          <h3>Tanda-Tanda Awal (Ringan)</h3>
+          <ul class="styled-list">
+            <li>Sering melupakan kejadian atau percakapan yang baru saja terjadi.</li>
+            <li>Lupa meletakkan barang pribadi di tempat yang tidak wajar.</li>
+            <li>Kesulitan menemukan kata yang tepat saat berbicara.</li>
+            <li>Mulai bingung mengenai waktu, hari, atau tempat yang familier.</li>
+            <li>Sulit mengambil keputusan sederhana atau mengelola keuangan rutin.</li>
+          </ul>
+        </div>
+        <div class="content-card border-danger">
+          <span class="tag tag-danger">Tahap 2: Gejala Lanjutan</span>
+          <h3>Gejala Menengah hingga Berat</h3>
+          <ul class="styled-list">
+            <li>Disorientasi berat: tersesat di lingkungan rumah sendiri.</li>
+            <li>Tidak lagi mengenali wajah anggota keluarga terdekat maupun pasangan.</li>
+            <li>Perubahan suasana hati ekstrem (mudah curiga, cemas, apatis, atau agresif).</li>
+            <li>Kesulitan berjalan, duduk, hingga gangguan menelan makanan.</li>
+            <li>Kehilangan kemampuan merawat diri (mandi, berpakaian, buang air).</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- d. PENYEBAB DAN FAKTOR RISIKO -->
+    <section id="penyebab" class="page-section">
+      <div class="section-header">
+        <h2>Penyebab dan Faktor Risiko</h2>
+        <p>Faktor biologis, genetik, dan gaya hidup yang memicu Alzheimer.</p>
+      </div>
+      <div class="content-card">
+        <h3>Penyebab Utama</h3>
+        <p>
+         Hingga saat ini penyebab pasti munculnya penyakit Alzheimer belum diketahui secara tunggal, tetapi para ahli menyimpulkan kondisi ini dipicu oleh kombinasi faktor biologis, genetik, dan gaya hidup yang merusak sel saraf secara bertahap:<strong>plak beta-amiloid</strong> dan <strong>serat kusut tau (Tangles)</strong> yang memutus jalur komunikasi antar-neuron.
+        </p>
+        <div class="grid-2 mt-20">
+          <div class="sub-box">
+            <h4>Faktor Risiko Tidak Dapat Diubah</h4>
+            <ul class="styled-list">
+              <li><strong>Pertambahan Usia:</strong> Faktor risiko terbesar; peluang meningkat signifikan setelah memasuki usia 60–65 tahun ke atas.</li>
+              <li><strong>Riwayat Keluarga & Genetik:</strong> Faktor keturunan (gen APOE-e4).</li>
+              <li><strong>Sindrom Down:</strong> Kelainan kromosom 21.</li>
+			   <li><strong>Jenis Kelamin:</strong> Secara statistik, wanita memiliki angka kejadian sedikit lebih tinggi dibandingkan pria, salah satunya karena faktor usia harapan hidup yang lebih panjang.</li>
+            </ul>
+          </div>
+          <div class="sub-box">
+            <h4>Faktor Gaya Hidup & Kesehatan Lainnya</h4>
+            <ul class="styled-list">
+              <li><strong>Penyakit Kardiovaskular:</strong>  Hipertensi, diabetes tipe 2, kolesterol tinggi, dan obesitas yang dapat merusak pembuluh darah menuju otak.</li>
+              <li><strong>Riwayat Cedera Kepala:</strong>Pernah mengalami benturan kepala berat atau trauma otak berulang.</li>
+              <li><strong>Kurang Stimulasi & Isolasi Sosial:</strong>  Jarang melatih fungsi berpikir, kurang tidur kronis, depresi berkepanjangan, serta minim interaksi sosial.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- e. PENCEGAHAN -->
+    <section id="pencegahan" class="page-section">
+      <div class="section-header">
+        <h2>Upaya Pencegahan Alzheimer</h2>
+        <p>Penerapan pola hidup sehat untuk menjaga kesehatan fungsi otak.</p>
+      </div>
+      <div class="grid-3">
+        <div class="content-card">
+          <h3>1. Aktivitas Fisik Rutin</h3>
+          <p>Olahraga aerobik ringan seperti jalan cepat atau senam lansia minimal 150 menit per minggu untuk melancarkan aliran darah ke otak.</p>
+        </div>
+        <div class="content-card">
+          <h3>2. Pola Makan Sehat (Diet MIND)</h3>
+          <p>Konsumsi sayuran hijau, buah beri, kacang-kacangan, ikan berlemak kaya omega-3, serta kurangi gula dan lemak jenuh.</p>
+        </div>
+        <div class="content-card">
+          <h3>3. Stimulasi Otak & Sosial</h3>
+          <p>Membaca buku, mengisi teka-teki silang, mempelajari hal baru, dan aktif berinteraksi sosial dengan keluarga maupun komunitas.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- f. PENANGANAN -->
+    <section id="penanganan" class="page-section">
+      <div class="section-header">
+        <h2>Pemeriksaan dan Penanganan Medis</h2>
+        <p>Langkah diagnosis, terapi pengobatan, dan anjuran pelayanan kesehatan.</p>
+      </div>
+      <div class="content-card">
+        <h3>1. Informasi Pemeriksaan Penyakit</h3>
+        <ul class="styled-list">
+          <li><strong>Tes Kognitif:</strong> Pemeriksaan daya ingat standar (MMSE / MoCA).</li>
+          <li><strong>Pencitraan Otak:</strong> CT Scan atau MRI kepala.</li>
+          <li><strong>Tes Laboratorium:</strong> Pemeriksaan darah lengkap.</li>
+        </ul>
+        <h3 class="mt-20">2. Penanganan & Pengobatan Secara Medis</h3>
+		<ul class="styled-list">
+		<p>Terapi Obat-obatan: Pemberian obat penghambat kolinesterase (donepezil, rivastigmine) atau memantine untuk memperlambat penurunan daya ingat dan fungsi berpikir.</p>
+		<p>• Kontrol Medis Berkala: Pemantauan rutin bersama dokter spesialis saraf (neurolog) untuk mengevaluasi perkembangan kondisi dan menyesuaikan dosis obat.</p>
+		<p>Penanganan Gejala Penyerta: Pemberian obat khusus (seperti antidepresan atau penenang ringan) apabila muncul gangguan tidur, kecemasan, atau perubahan perilaku berat.</p>
+
+
+
+
